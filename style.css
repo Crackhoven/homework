@@ -1,0 +1,69 @@
+* {
+    margin: 0px;
+}
+
+.flexbox{
+    display:flex;
+    block-size:525px;
+    flex-flow: row wrap;
+    gap: 5px; /* Gap replaces margin in the children, makes it a lot easier */
+    margin: 5px;
+}
+
+.outerContainer{
+    display:flex;
+    inline-size: 800px;
+    flex-flow: row wrap;
+    gap:5px;
+    justify-content:flex-end;
+    inline-size: 740px;
+}
+
+.innerContainer{
+    display:flex;
+    flex-flow: row wrap;
+    gap: 5px;
+    inline-size: 520px;
+}
+
+.leftBox{
+    border: 3px solid black;
+    display:flex;
+    block-size: 525px;
+    inline-size: 200px;
+} 
+
+.topLeftBox{
+    border: 3px solid black;
+    display: flex;
+    block-size: 175px;
+    inline-size: 250px;
+}
+
+.topRightBox{
+    border: 3px solid black;
+    display: flex;
+    block-size: 175px;
+    inline-size: 250px;
+}
+
+.rightBox {
+    border: 3px solid black;
+    display: flex;
+    block-size: 350px;
+    inline-size: 200px;
+}
+
+.middleBox {
+    border: 3px solid black;
+    display: flex;
+    block-size: 164px;
+    inline-size: 510px;
+}
+
+.bottomBox{
+    border: 3px solid black;
+    display:flex;
+    block-size: 165px;
+    inline-size: 725px;
+}
